@@ -1,0 +1,35 @@
+Screen {
+    background: #212529;
+    /* background: #343a40; */
+}
+
+MessageBox {
+    height: auto;
+}
+
+.message {
+    width: 0.5fr;
+    border: tall #0f70d1;
+    padding: 1 3 1 3;
+    margin: 1 25 1 25;
+    background: #343a40;
+}
+
+.question {
+    dock: left;
+}
+
+.answer {
+    dock: right;
+}
+
+#input_box {
+    dock: bottom;
+    height: auto;
+    margin-top: 1;
+}
+
+#message_input {
+    width: 1fr;
+    background: #343a40;
+}
