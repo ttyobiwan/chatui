@@ -15,7 +15,7 @@
 
 ## 📖 About <a name = "about"></a>
 
-In-terminal ChatGPT powered by Textual.
+In-terminal ChatGPT powered by Textual. Take note that this is just an MVP + I'm not a CSS ninja.
 
 ## 💾 Installation <a name = "installation"></a>
 
