@@ -41,7 +41,10 @@ class ChatApp(App):
         yield Header()
         with FocusableContainer(id="conversation_box"):
             yield MessageBox(
-                "Welcome to chatui!",
+                "Welcome to chatui!\n"
+                "Type your question, click enter or 'send' button "
+                "and wait for the response.\n"
+                "At the bottom you can find few more helpful commands.",
                 role="info",
             )
         with Horizontal(id="input_box"):

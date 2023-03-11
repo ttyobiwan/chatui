@@ -18,7 +18,8 @@ MessageBox {
 }
 
 .info {
-    width: 50%;
+    width: auto;
+    text-align: center;
 }
 
 .question {
