@@ -1,6 +1,7 @@
 [tool.ruff]
 line-length = 88
-select = ["E", "F", "I", "UP", "N", "S", "C", "B"] # TODO: Add 'D'
+select = ["E", "F", "I", "UP", "N", "S", "C", "B", "D"]
+ignore = ["D100", "D104", "D107"]
 
 [tool.black]
 line-length = 88

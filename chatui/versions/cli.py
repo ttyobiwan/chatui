@@ -4,6 +4,7 @@ from chatui.chat import Conversation
 
 
 async def main() -> None:
+    """Run cli conversation."""
     conversation = Conversation()
     while True:
         msg = input("Type your message: ")
