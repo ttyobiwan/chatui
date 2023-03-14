@@ -1,2 +1,2 @@
 openai==0.27.2
-textual==0.15.0
+textual==0.15.1
