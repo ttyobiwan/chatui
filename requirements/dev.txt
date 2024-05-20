@@ -1,4 +1,4 @@
 -r base.txt
 
-textual[dev]==0.61.1
+textual[dev]==0.62.0
 pre-commit==3.7.1
