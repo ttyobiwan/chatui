@@ -20,7 +20,7 @@ jobs:
 
       - name: Load pip cache
         id: pip-cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.pythonLocation }}
           key: ${{ runner.os }}-pip-${{ hashFiles('./requirements/*.txt') }}
@@ -31,7 +31,7 @@ jobs:
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
       - name: Load pre-commit cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.cache/pre-commit
           key: ${{ runner.os }}-pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
